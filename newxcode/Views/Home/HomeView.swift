@@ -9,22 +9,29 @@ import SwiftUI
 import MapKit
 import Combine
 
+import NavigationStack
+
 
 struct HomeView: View {
     @EnvironmentObject var userData: UserData
+    
+    @ViewBuilder
     var body: some View {
-        ZStack(alignment: .topLeading) {
+        NavigationStackView {
             
-            MapView().padding(.leading,  userData.offset).ignoresSafeArea()
-            
-            MenuButtonView()
-            BookLessonActivationView()
-            
-            HStack {
-                MenuView()
+            ZStack(alignment: .topLeading) {
                 
-                BlackView()
-            }
+                MapView().ignoresSafeArea()
+                
+                MenuButtonView()
+                BookLessonActivationView()
+                
+                HStack {
+                    MenuView()
+                    
+                    BlackView()
+                }
+            }.preferredColorScheme(.light)
         }
     }
 }

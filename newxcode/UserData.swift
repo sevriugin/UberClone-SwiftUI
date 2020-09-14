@@ -11,6 +11,7 @@ import CoreLocation
 
 final class UserData: ObservableObject {
     @Published var showSideMenu = false
+    @Published var showMenuItem = false
     var offset: CGFloat { showSideMenu ? 260:0 }
 }
 

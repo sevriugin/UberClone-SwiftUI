@@ -8,7 +8,6 @@
 import Foundation
 
 struct K {
-    static let menuItemText = ["Text 1", "Text 2", "Text 3", "Text 4", "Text 5"]
     static let menuItems = [
         MenuItem(title: "Settings", iconSystemName: "gear"),
         MenuItem(title: "Lesson History", iconSystemName: "book.circle"),

@@ -3,10 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		853E1881250D0A6700E94CC3 /* NavigationStack in Frameworks */ = {isa = PBXBuildFile; productRef = 853E1880250D0A6700E94CC3 /* NavigationStack */; };
+		853E1883250F3C6E00E94CC3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853E1882250F3C6E00E94CC3 /* Extensions.swift */; };
+		853E1885250F4EEB00E94CC3 /* StatusBarStyleKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853E1884250F4EEB00E94CC3 /* StatusBarStyleKey.swift */; };
+		853E1889250F50B400E94CC3 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853E1888250F50B400E94CC3 /* HostingController.swift */; };
+		853E188B250F5A0800E94CC3 /* NavigationHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853E188A250F5A0800E94CC3 /* NavigationHeaderView.swift */; };
 		85991D5A250A9D2F008E7DE6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85991D59250A9D2F008E7DE6 /* MapView.swift */; };
 		85991D5C250B96B6008E7DE6 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85991D5B250B96B6008E7DE6 /* UserData.swift */; };
 		85991D5E250B9716008E7DE6 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85991D5D250B9716008E7DE6 /* MenuItemView.swift */; };
@@ -17,6 +22,7 @@
 		85991D6B250B9CB1008E7DE6 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85991D6A250B9CB1008E7DE6 /* MenuView.swift */; };
 		85991D6D250BB26B008E7DE6 /* LocationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85991D6C250BB26B008E7DE6 /* LocationHandler.swift */; };
 		85991D70250BB8F2008E7DE6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85991D6F250BB8F2008E7DE6 /* MapKit.framework */; };
+		85991D72250CB7AA008E7DE6 /* MenuRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85991D71250CB7AA008E7DE6 /* MenuRouter.swift */; };
 		85B6B1A7250755EE0009E3E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B6B1A6250755EE0009E3E0 /* AppDelegate.swift */; };
 		85B6B1A9250755EE0009E3E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B6B1A8250755EE0009E3E0 /* SceneDelegate.swift */; };
 		85B6B1AB250755EE0009E3E0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B6B1AA250755EE0009E3E0 /* HomeView.swift */; };
@@ -45,6 +51,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		853E1882250F3C6E00E94CC3 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		853E1884250F4EEB00E94CC3 /* StatusBarStyleKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarStyleKey.swift; sourceTree = "<group>"; };
+		853E1888250F50B400E94CC3 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		853E188A250F5A0800E94CC3 /* NavigationHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationHeaderView.swift; sourceTree = "<group>"; };
 		85991D59250A9D2F008E7DE6 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		85991D5B250B96B6008E7DE6 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		85991D5D250B9716008E7DE6 /* MenuItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemView.swift; sourceTree = "<group>"; };
@@ -55,6 +65,7 @@
 		85991D6A250B9CB1008E7DE6 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		85991D6C250BB26B008E7DE6 /* LocationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHandler.swift; sourceTree = "<group>"; };
 		85991D6F250BB8F2008E7DE6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		85991D71250CB7AA008E7DE6 /* MenuRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRouter.swift; sourceTree = "<group>"; };
 		85B6B1A3250755EE0009E3E0 /* newxcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = newxcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85B6B1A6250755EE0009E3E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85B6B1A8250755EE0009E3E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +88,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				85991D70250BB8F2008E7DE6 /* MapKit.framework in Frameworks */,
+				853E1881250D0A6700E94CC3 /* NavigationStack in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +125,8 @@
 				85991D65250B997A008E7DE6 /* MenuButtonView.swift */,
 				85991D67250B9B7D008E7DE6 /* BlackView.swift */,
 				85991D6A250B9CB1008E7DE6 /* MenuView.swift */,
+				85991D71250CB7AA008E7DE6 /* MenuRouter.swift */,
+				853E188A250F5A0800E94CC3 /* NavigationHeaderView.swift */,
 			);
 			path = "Side Menu";
 			sourceTree = "<group>";
@@ -169,6 +183,9 @@
 				85991D5B250B96B6008E7DE6 /* UserData.swift */,
 				85991D5F250B97DC008E7DE6 /* Constants.swift */,
 				85991D6C250BB26B008E7DE6 /* LocationHandler.swift */,
+				853E1882250F3C6E00E94CC3 /* Extensions.swift */,
+				853E1884250F4EEB00E94CC3 /* StatusBarStyleKey.swift */,
+				853E1888250F50B400E94CC3 /* HostingController.swift */,
 			);
 			path = newxcode;
 			sourceTree = "<group>";
@@ -215,6 +232,9 @@
 			dependencies = (
 			);
 			name = newxcode;
+			packageProductDependencies = (
+				853E1880250D0A6700E94CC3 /* NavigationStack */,
+			);
 			productName = newxcode;
 			productReference = 85B6B1A3250755EE0009E3E0 /* newxcode.app */;
 			productType = "com.apple.product-type.application";
@@ -286,6 +306,9 @@
 				Base,
 			);
 			mainGroup = 85B6B19A250755EE0009E3E0;
+			packageReferences = (
+				853E187F250D0A6700E94CC3 /* XCRemoteSwiftPackageReference "swiftui-navigation-stack" */,
+			);
 			productRefGroup = 85B6B1A4250755EE0009E3E0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -331,16 +354,21 @@
 			files = (
 				85991D66250B997A008E7DE6 /* MenuButtonView.swift in Sources */,
 				85B6B1A7250755EE0009E3E0 /* AppDelegate.swift in Sources */,
+				853E1889250F50B400E94CC3 /* HostingController.swift in Sources */,
 				85991D5A250A9D2F008E7DE6 /* MapView.swift in Sources */,
+				853E1885250F4EEB00E94CC3 /* StatusBarStyleKey.swift in Sources */,
 				85991D6D250BB26B008E7DE6 /* LocationHandler.swift in Sources */,
 				85991D5E250B9716008E7DE6 /* MenuItemView.swift in Sources */,
+				85991D72250CB7AA008E7DE6 /* MenuRouter.swift in Sources */,
 				85991D68250B9B7D008E7DE6 /* BlackView.swift in Sources */,
 				85991D60250B97DC008E7DE6 /* Constants.swift in Sources */,
+				853E188B250F5A0800E94CC3 /* NavigationHeaderView.swift in Sources */,
 				85B6B1A9250755EE0009E3E0 /* SceneDelegate.swift in Sources */,
 				85991D6B250B9CB1008E7DE6 /* MenuView.swift in Sources */,
 				85991D62250B9850008E7DE6 /* BookLessonActivationView.swift in Sources */,
 				85991D5C250B96B6008E7DE6 /* UserData.swift in Sources */,
 				85B6B1AB250755EE0009E3E0 /* HomeView.swift in Sources */,
+				853E1883250F3C6E00E94CC3 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -669,6 +697,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		853E187F250D0A6700E94CC3 /* XCRemoteSwiftPackageReference "swiftui-navigation-stack" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/biobeats/swiftui-navigation-stack.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		853E1880250D0A6700E94CC3 /* NavigationStack */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 853E187F250D0A6700E94CC3 /* XCRemoteSwiftPackageReference "swiftui-navigation-stack" */;
+			productName = NavigationStack;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 85B6B19B250755EE0009E3E0 /* Project object */;
 }
